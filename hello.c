@@ -3,7 +3,7 @@
 int main()
 {
 
-    printf("Hello");
+    printf("Hello, ");
 
     int a,b;
 
@@ -12,16 +12,32 @@ int main()
 
     int resultc, resultt;
 
-    resultc = a+b;
+     resultc = a+b;
 
-    resultt = a-b;
+     resultt = a-b;   
 
-    printf("Summation of the numbers is %d", result);
     
     char ch;
     
-    printf("enter a character: ");
-    scanf("%c", &ch);
+    printf("Enter a character: ");
+    
+    scanf(" %c", &ch);  
+    
+   
+   
+    if (ch == 'c')
+    {
+        
+        printf("Summation of the numbers are:%d", resultc);
+        
+    }
+        
+    else if (ch == 't') 
+    {
+        printf("Extraction of the numbers are:%d", resultt);
+    }
+            
+    
 
     return 0;
 
