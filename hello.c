@@ -18,7 +18,10 @@ int main()
 
     printf("Summation of the numbers is %d", result);
     
-
+    char ch;
+    
+    printf("enter a character: ");
+    scanf("%c", &ch);
 
     return 0;
 
