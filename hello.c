@@ -10,9 +10,11 @@ int main()
     printf("Enter the numbers: ");
     scanf("%d %d", &a, &b);
 
-    int result;
+    int resultc, resultt;
 
-    result = a+b;
+    resultc = a+b;
+
+    resultt = a-b;
 
     printf("Summation of the numbers is %d", result);
     
